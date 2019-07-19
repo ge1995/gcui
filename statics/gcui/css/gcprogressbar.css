@@ -1,0 +1,47 @@
+.gcui-progressbar {
+    width: 100%;
+}
+
+.progressbar-content {
+    height: calc(30px - 4px);
+    width: calc(100% - 20px);
+    border-radius: 8px;
+    border: aqua 2px solid;
+    overflow: hidden;
+}
+
+.progressbar-background {
+    height: 30px;
+    width: 0;
+    background-color: chartreuse;
+}
+.progressbar-value {
+    top: -30px;
+    left: 48%;
+    width: 50px;
+    position: relative;
+}
+.button-group {
+    padding: 10px;
+    height: 50px;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.progress-button {
+    display: inline-block;
+    height: 30px;
+    width: 70px;
+    border-radius: 5px;
+    margin: 0 30px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+    background-color: aqua;
+}
+.progress-button:hover {
+    background-color: #00e3e3;
+}
+.progress-button:active {
+    background-color: #00c9c9;
+}

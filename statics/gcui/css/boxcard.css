@@ -1,0 +1,86 @@
+
+.gcui-box-card {
+    width: 100%;
+    text-align: center;
+}
+
+.box-card-one, .box-card-two {
+    width: 100%;
+}
+
+.box-card-one div {
+    display: inline-block;
+    width: 22%;
+    margin: 15px 1%;
+    height: 150px;
+    background-color: #FFFFFF;
+    border: 1px solid #d0d0d0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+.box-card-one div:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.box-card-two div {
+    display: inline-block;
+    width: 22%;
+    margin: 15px 1%;
+    height: 150px;
+    background-color: #00e3e3;
+    border: 1px solid #d0d0d0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+}
+
+.box-card-two div:hover {
+    box-shadow: 3px 8px 8px rgba(0, 0, 0, 0.2);
+    transform: translate(0, -5px);
+}
+
+.box-card-left {
+    border-radius: 5px 40px 5px 40px;
+}
+
+.box-card-right {
+    border-radius: 40px 5px 40px 5px;
+}
+
+@keyframes myHover {
+    from {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+    to {
+        box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@-webkit-keyframes myHover /* Safari 与 Chrome */
+{
+    from {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+    to {
+        box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@keyframes myBack {
+    from {
+        box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+    to {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+}
+
+@-webkit-keyframes myBack /* Safari 与 Chrome */
+{
+    from {
+        box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.1);
+    }
+    to {
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    }
+}

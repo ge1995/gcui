@@ -1,0 +1,107 @@
+@import "gcloader.css";
+@import "boxcard.css";
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+header {
+    height: 45px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: 100%;
+    min-width: 1200px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #FFFFFF;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    height: 60px;
+    margin: 0 auto;
+    width: 1100px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.header-content div {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 5px;
+    width: 32%;
+}
+
+.header-left {
+    height: 50px;
+    text-align: left;
+}
+
+.header-left img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.header-left span {
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.header-center {
+    height: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-right {
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: right;
+}
+
+.container {
+    padding: 15px;
+    margin: 0 auto;
+    width: 1100px;
+    background-color: #FFFFFF;
+}
+
+.title {
+    cursor: pointer;
+    width: 100%;
+    padding: 0 0 10px 0;
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+}
+
+.title .must-ugly {
+    margin: 0 5px;
+    color: red;
+    font-style: italic;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+footer {
+    text-align: center;
+    padding: 50px 0;
+    max-width: 100%;
+    min-width: 1200px;
+    background-color: #6d6d6d;
+    color: #FFFFFF;
+}
+
+.footer {
+    margin: 0 auto;
+    width: 1100px;
+}

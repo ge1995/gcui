@@ -1,0 +1,231 @@
+.gcui-loader {
+    width: 100%;
+    margin: 10px 20px;
+}
+
+.gcui-loader > div {
+    display: inline-block;
+    margin: 15px 20px;
+}
+
+.loader-content-one {
+    height: 100%;
+    width: 100%;
+}
+
+/*.loader-items .loader-item {*/
+    /*width: 6px;*/
+    /*height: 60px;*/
+    /*display: inline-block;*/
+    /*border-radius: 3px;*/
+    /*background: rgba(0, 0, 0, 0.6);*/
+/*}*/
+
+.loader-content-one {
+    margin: 0 auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.loader-content-one > div {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 4px;
+    border-radius: 2px;
+    display: inline-block;
+    -webkit-animation: stretchdelay 1.2s infinite ease-in-out;
+    animation: stretchdelay 1.2s infinite ease-in-out;
+}
+
+.loader-content-one .rect2 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.loader-content-one .rect3 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+}
+
+.loader-content-one .rect4 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.loader-content-one .rect5 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+@-webkit-keyframes stretchdelay {
+    0%, 40%, 100% {
+        -webkit-transform: scaleY(0.4)
+    }
+    20% {
+        -webkit-transform: scaleY(1.0)
+    }
+}
+
+@keyframes stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+    }
+    20% {
+        transform: scaleY(1.0);
+    }
+}
+
+
+.loader-content-two {
+    margin: 0 auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.loader-content-two > div {
+    background: rgba(7, 115, 241, 0.5);
+    height: 100%;
+    width: 4px;
+    border-radius: 2px;
+    display: inline-block;
+    -webkit-animation: stretchdelaytwo 1s infinite ease-in-out;
+    animation: stretchdelaytwo 1s infinite ease-in-out;
+}
+
+.loader-content-two .rect2 {
+    -webkit-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+}
+
+.loader-content-two .rect3 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.loader-content-two .rect4 {
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+
+.loader-content-two .rect5 {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.loader-content-two .rect6 {
+    -webkit-animation-delay: 0.75s;
+    animation-delay: 0.75s;
+}
+
+.loader-content-two .rect7 {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+@-webkit-keyframes stretchdelaytwo {
+    0%, 100% {
+        -webkit-transform: scaleY(0.1)
+    }
+    50% {
+        -webkit-transform: scaleY(1.0)
+    }
+}
+
+@keyframes stretchdelaytwo {
+    0%, 100% {
+        transform: scaleY(0.1)
+    }
+    50% {
+        transform: scaleY(1.0)
+    }
+}
+
+.loader-content-three {
+    position: absolute;
+    margin: 0 auto;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 10px;
+    background-color: #00e3e3;
+}
+
+.loader-content-three > div {
+    top: 3.5px;
+    left: 8.5px;
+    height: 4px;
+    width: 4px;
+    position: absolute;
+    background: rgb(171, 171, 171);
+    border-radius: 50%;
+    display: inline-block;
+    -webkit-transform-origin: 16.5px 16.5px;
+    transform-origin: 16.5px 16.5px;
+    -webkit-animation: stretchdelaythree 1.3s infinite ease-in-out;
+    animation: stretchdelaythree 1.3s infinite ease-in-out;
+}
+
+.loader-content-three .rect1 {
+    padding: 4px;
+    z-index: 999;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.loader-content-three .rect2 {
+    padding: 3px;
+    z-index: 998;
+    -webkit-animation-delay: 0.15s;
+    animation-delay: 0.15s;
+}
+
+.loader-content-three .rect3 {
+    padding: 2px;
+    z-index: 997;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.loader-content-three .rect4 {
+    padding: 1px;
+    z-index: 996;
+    -webkit-animation-delay: 0.45s;
+    animation-delay: 0.45s;
+}
+
+.loader-content-three .rect5 {
+    z-index: 995;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+@-webkit-keyframes stretchdelaythree {
+    0%{
+        -webkit-transform: rotate(45deg)
+    }
+    /*25% {*/
+
+    /*}*/
+    /*50% {*/
+
+    /*}*/
+    /*75% {*/
+
+    /*}*/
+    100% {
+        -webkit-transform: rotate(405deg)
+    }
+}
+
+@keyframes stretchdelaythree {
+    0% {
+        transform: rotate(45deg)
+    }
+    100% {
+        transform: rotate(405deg)
+    }
+}
